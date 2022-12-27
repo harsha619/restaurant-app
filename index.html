@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/352d863c05.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <script  src="./script.js" defer></script>
+    <link href="style.css" rel="stylesheet">
+    <title>restaurant</title>
+</head>
+<body>
+    <!-- <header> -->
+        
+    <nav>
+        <h1>RESTURANT</h1>
+    </nav>
+    
+    <div class="grid">
+        <div class="tables-div">
+            <div class="table-input-div">
+                <input type="text" id="table-search" placeholder="search by table">
+            </div>
+            <div class="table" id="table">
+
+            </div>
+        </div>
+        <div class="items-div">
+            <div class="items-input-div">
+                <input type="text" id="items-search" placeholder="search by item">
+            </div>
+            <div class="items" id="items">
+
+            </div>
+
+        </div>
+    </div> 
+    <div id="pop-bg">
+    <div class="pop-up" id="pop-up">
+        <div class="popUp-top">
+            <span id="bill-table-name">
+                Table
+            </span>
+            <span>
+                Bill
+                
+            </span >
+            <i class="fa-regular fa-circle-xmark" id="pop-remove"></i>
+        </div>
+        
+        <table>
+            <tr>
+                <th> sno</th>
+                <th>item </th>
+                <th> price </th>
+                <th> quantity</th>
+                <th> d</th>
+            </tr>
+            <tbody id="tbody">
+                
+            </tbody>
+            <tr>
+                <th></th>
+                <th>Total cost</th>
+                <th id="bill-amount"> </th>
+                <th id="bill-totalItems"> </th>
+                
+            </tr>
+        </table>
+        <div >
+            <input type="button" value="save changes" id="save-changes">
+           <input type="button"  value="get bill" id="finall-bill"  >
+        </div>
+    </div>
+    <!-- </header> -->
+    
+</body>
+</html>
